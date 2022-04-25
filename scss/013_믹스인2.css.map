@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAOA,AAAA,CAAC,CAAC;EANA,KAAK,EAAE,KAAK;EAQV,gBAAgB,EAAE,KAAK;EANzB,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;CAOb",
+    "sources": [
+        "013_믹스인2.scss"
+    ],
+    "names": [],
+    "file": "013_믹스인2.css"
+}

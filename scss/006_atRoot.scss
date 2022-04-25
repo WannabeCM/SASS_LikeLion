@@ -1,0 +1,14 @@
+$sungbum1: lightgreen;
+$sungbum2: lightpink;
+$sungbum3: lightgray;
+$sungbum4: lightblue;
+
+.one {
+  color: $sungbum1;
+  @at-root .two {
+    color: $sungbum2;
+    @at-root .three {
+      color: $sungbum4;
+    }
+  }
+}

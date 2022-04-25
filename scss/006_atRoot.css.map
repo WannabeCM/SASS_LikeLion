@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAKA,AAAA,IAAI,CAAC;EACH,KAAK,EANI,UAAU;CAapB;;AANU,AAAD,IAAK,CAAC;EACZ,KAAK,EAPE,SAAS;CAWjB;;AAHU,AAAD,MAAO,CAAC;EACd,KAAK,EAPA,SAAS;CAQf",
+    "sources": [
+        "006_atRoot.scss"
+    ],
+    "names": [],
+    "file": "006_atRoot.css"
+}

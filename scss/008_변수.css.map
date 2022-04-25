@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAyBA,AAAA,MAAM,CAAC;EACL,SAAS,EAXH,IAAI;CAYX;;AACD,AAAA,OAAO,CAAC;EACN,SAAS,EARH,IAAI;CASX",
+    "sources": [
+        "008_변수.scss"
+    ],
+    "names": [],
+    "file": "008_변수.css"
+}

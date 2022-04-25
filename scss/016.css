@@ -1,0 +1,14 @@
+.box, .box2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.box {
+  border: 5px solid black;
+}
+
+.box2 {
+  background-color: lightblue;
+}
+/*# sourceMappingURL=016.css.map */
