@@ -1,0 +1,12 @@
+.btn {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.color-circle-color-pallette {
+  background: color-pallette;
+  width: 20px;
+  height: 20px;
+}
+/*# sourceMappingURL=034_mixin.css.map */

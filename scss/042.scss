@@ -1,0 +1,17 @@
+@function 제곱($value) {
+  $value: $value * $value + px;
+  @return $value;
+}
+
+.box {
+  width: 제곱(10);
+}
+
+@function pow($value) {
+  $value: $value * $value + px;
+  @return $value;
+}
+
+.box {
+  width: pow(10);
+}
