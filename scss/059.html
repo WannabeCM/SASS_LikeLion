@@ -10,18 +10,24 @@
   <body>
     <!-- https://tailwindcss.com/docs/flex -->
     <!-- https://tailwindcss.com/docs/width -->
-    <div class="flex flex-wrap border-solid border-4 border-red-300 m-3">
-      <div class="flex-1 border-solid border-4 border-blue-500">
-        hello world
-      </div>
-      <div class="flex-2 border-solid border-4 border-blue-500">
-        hello world
-      </div>
+    <div class="flex flex-wrap border-4 border-red-300 m-3">
+      <div class="flex-1 border-4 border-blue-500 m-3">my name is Jason</div>
+      <div class="flex-1 border-4 border-blue-500 m-3">my name is Jason</div>
+      <div class="flex-1 border-4 border-blue-500 m-3">my name is Jason</div>
     </div>
 
     <div class="flex flex-wrap border-solid border-4 border-red-300 m-3">
-      <div class="w-1/4 border-solid border-4 border-blue-500">hello world</div>
-      <div class="w-3/4 border-solid border-4 border-blue-500">hello world</div>
+      <div class="flex-2 border-solid border-4 border-blue-500">nihao</div>
+      <div class="flex-2 border-solid border-4 border-blue-500">nihao</div>
+    </div>
+
+    <div class="flex flex-wrap border-solid border-4 border-red-300 m-3">
+      <div class="w-1/4 border-solid border-4 border-blue-500 m-3">
+        hello world
+      </div>
+      <div class="w-3/4 border-solid border-4 border-blue-500 m-3">
+        hello world
+      </div>
     </div>
 
     <p class="">wrap</p>
@@ -57,6 +63,29 @@
       class="flex w-36 h-36 justify-center items-center border-solid border-4 border-red-300 m-3"
     >
       <div class="border-solid border-4 border-blue-500">01</div>
+    </div>
+
+    <!-- https://tailwindcss.com/docs/grid-template-columns -->
+    <div class="grid grid-cols-3 gap-2">
+      <div class="border-solid border-4 border-blue-500">hello world</div>
+      <div class="border-solid border-4 border-blue-500">hello world</div>
+      <div class="border-solid border-4 border-blue-500">hello world</div>
+      <div class="border-solid border-4 border-blue-500">hello world</div>
+      <div class="border-solid border-4 border-blue-500">hello world</div>
+      <div class="border-solid border-4 border-blue-500">hello world</div>
+      <div class="border-solid border-4 border-blue-500">hello world</div>
+      <div class="border-solid border-4 border-blue-500">hello world</div>
+      <div class="border-solid border-4 border-blue-500">hello world</div>
+    </div>
+
+    <div class="grid grid-cols-3 gap-4 mt-10">
+      <div class="border-solid border-4 border-blue-500">01</div>
+      <div class="border-solid border-4 border-blue-500">02</div>
+      <div class="border-solid border-4 border-blue-500">03</div>
+      <div class="col-span-2 border-solid border-4 border-blue-500">04</div>
+      <div class="border-solid border-4 border-blue-500">05</div>
+      <div class="border-solid border-4 border-blue-500">06</div>
+      <div class="col-span-2 border-solid border-4 border-blue-500">07</div>
     </div>
   </body>
 </html>
