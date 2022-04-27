@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tailwindcss</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- https://tailwindcss.com/docs/margin -->
+    <!-- https://tailwindcss.com/docs/padding -->
+    <div class="text-base">hello world</div>
+    <div class="text-2xl mt-5 mb-5">hello world</div>
+    <div class="text-3xl p-5">hello world</div>
+    <div class="text-4xl pt-5">hello world</div>
+    <!-- <div class="text-5xl py-8">hello world</div> 세로 padding(top, bottom) -->
+    <!-- <div class="text-5xl px-8">hello world</div> 가로 padding -->
+    <!-- <div class="pb-4">hello world</div> padding bottom -->
+
+    <!-- https://tailwindcss.com/docs/font-weight -->
+    <!-- https://tailwindcss.com/docs/text-color -->
+    <div class="text-5xl text-gray-700">hello world</div>
+    <div class="text-sky-200">hello world</div>
+    <div class="text-blue-500 m-5">hello world</div>
+    <div class="font-bold">hello world</div>
+
+    <!-- https://tailwindcss.com/docs/list-style-type -->
+    <div class="m-5">
+      <ul class="list-decimal">
+        <li>hello world</li>
+        <li>hello world</li>
+        <li>hello world</li>
+        <li>hello world</li>
+        <li>hello world</li>
+      </ul>
+    </div>
+
+    <div class="p-5">
+      <ul class="list-disc list-inside">
+        <li>
+          안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.
+        </li>
+        <li>hello world</li>
+        <li>hello world</li>
+        <li>hello world</li>
+      </ul>
+    </div>
+
+    <div class="p-5">
+      <ol class="list-decimal">
+        <li>hello world</li>
+        <li>hello world</li>
+        <li>hello world</li>
+        <li>hello world</li>
+      </ol>
+    </div>
+
+    <!-- rounded-full w24 -->
+    <!-- https://tailwindcss.com/docs/border-radius -->
+    <!-- https://tailwindcss.com/docs/border-width -->
+    <div class="rounded-full h-24 w-24 bg-red-300"></div>
+    <div class="rounded-2xl h-24 w-24 bg-red-300"></div>
+    <div class="rounded h-24 w-24 bg-sky-400"></div>
+    <div class="rounded-full h-24 w-24 bg-indigo-300"></div>
+    <div class="border-l-4 pl-2 border-indigo-500 m-3">hello</div>
+    <div class="border-y border-red-700 m-3">hello</div>
+    <div class="text-[117px]">hello world</div>
+    <div class="bg-[#bada55] text-[22px] before:content-['Festivus']">
+      helloworld
+    </div>
+  </body>
+</html>
